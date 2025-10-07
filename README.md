@@ -38,24 +38,24 @@ Make sure you have Node.js installed on your machine:
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
-git clone <repository-url>
-cd prateek-portfolio
-\`\`\`
+```bash
+git clone https://github.com/prateeklingwal/Portfolio.git
+cd Portfolio
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 npm install
 # or
 yarn install
-\`\`\`
+```
 
 3. Run the development server:
-\`\`\`bash
+```bash
 npm run dev
 # or
 yarn dev
-\`\`\`
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the portfolio.
 
@@ -63,23 +63,23 @@ yarn dev
 
 To create an optimized production build:
 
-\`\`\`bash
+```bash
 npm run build
 # or
 yarn build
-\`\`\`
+```
 
 To start the production server:
 
-\`\`\`bash
+```bash
 npm start
 # or
 yarn start
-\`\`\`
+```
 
 ## Project Structure
 
-\`\`\`
+```
 ├── app/                    # Next.js app directory
 │   ├── globals.css        # Global styles and theme variables
 │   ├── layout.tsx         # Root layout component
@@ -96,7 +96,7 @@ yarn start
 │   └── theme-provider.tsx # Theme context provider
 ├── public/               # Static assets
 └── README.md            # This file
-\`\`\`
+```
 
 ## Customization
 
